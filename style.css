@@ -1,0 +1,96 @@
+
+/*styling the body part*/
+body{
+    align-content: center;
+    background-color: cadetblue;
+}
+
+/*styling the title class*/
+.title{
+margin-bottom: 8px;
+text-align:center;
+width: 450px;
+color:#ff4456;
+border: solid black 1px;
+}
+
+/*styling the button*/
+input[type="button"]
+{
+border-radius: 10px;
+background-color: black;
+color:white;
+border-color:black ;
+width:100%;
+height: 100%;
+}
+
+/*styling the text*/
+input[type="text"]
+{
+border-radius: 10px;
+text-align: right;
+background-color:white;
+border-color: black ;
+width:100%;
+height: 70%;
+}
+
+/*styling the table table data and table head*/
+table, td, th {
+    border: 1px solid black;
+    height: 50px;
+    background-color: #555555;
+    width: 100px;
+  }
+  
+  /*styling the table*/
+  table {
+    border-collapse: collapse;
+    width: 30%;
+    padding: 300px;
+    margin: 200px 500px;
+  }
+  
+  /*styling the table data*/
+  td {
+    text-align: center;
+  }
+
+  /*styling the title*/
+  .title{
+      left: 500px;
+      position: relative;
+      top: 200px;
+      width: 454px;
+      background-color: black;
+      color:white;
+      border-color:black ;
+      height: 7%;
+      font-size: 40px;
+      text-align: center;
+  }
+
+  /*styling the operator*/
+  .operator>input[type="button"]{
+      color: white;
+      background-color:blue ;
+      font-size: 20px;
+  }
+
+  /*styling the number*/
+  .number>input[type="button"]{
+    font-size: 20px;
+  }
+
+  /*styling the equal button*/
+  .equal>input[type="button"]{
+    font-size: 20px;
+    background-color: orange;
+  }
+
+  /*styling the backspace and delete button*/
+  .back>input[type="button"]{
+    font-size: 20px;
+    background-color:red;
+  }
